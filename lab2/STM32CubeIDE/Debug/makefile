@@ -64,8 +64,8 @@ all: main-build
 main-build: WiFi_Client_Server.elf secondary-outputs
 
 # Tool invocations
-WiFi_Client_Server.elf WiFi_Client_Server.map: $(OBJS) $(USER_OBJS) C:\Users\frxdy\STM32Cube\Repository\STM32Cube_FW_L4_V1.18.1\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_Client_Server\STM32CubeIDE\STM32L475VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "WiFi_Client_Server.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\frxdy\STM32Cube\Repository\STM32Cube_FW_L4_V1.18.1\Projects\B-L475E-IOT01A\Applications\WiFi\WiFi_Client_Server\STM32CubeIDE\STM32L475VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="WiFi_Client_Server.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+WiFi_Client_Server.elf WiFi_Client_Server.map: $(OBJS) $(USER_OBJS) D:\frxdy\Documents\Embedded-System-Labs\lab2\STM32CubeIDE\STM32L475VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "WiFi_Client_Server.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\frxdy\Documents\Embedded-System-Labs\lab2\STM32CubeIDE\STM32L475VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="WiFi_Client_Server.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
