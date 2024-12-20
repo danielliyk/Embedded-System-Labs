@@ -1,16 +1,36 @@
-# Project Title
+# Embedded System: NTUEE 2024 Fall Final Project
 
-A brief description of your project.
+## Abstract
+In this project, we aim to combine modern game development with embedded system programming to create a unique and engaging gaming experience. Utilizing the SDL2 library in C++, we designed a game featuring smooth graphics, responsive controls, and captivating mechanics.
 
-## Features
-- Feature 1
-- Feature 2
+On the hardware side, we programmed the B-L475E-IOT01A development board using STM32CubeIDE. The board functions as the game controller, incorporating sensors and buttons to enable interactive and immersive gameplay. This project bridges the realms of software and hardware, showcasing innovative game mechanics such as tilt navigation and sensor-based inputs to provide a fun and intuitive user experience.
 
-## Installation
-Instructions for setting up your project.
+## How to Run the Project
 
-## Usage
-How to use your project.
+1. **Install SDL2 Packages**  
+   Follow the instructions provided at [Lazy Foo's SDL Tutorials](https://lazyfoo.net/tutorials/SDL/) to download and set up the necessary packages for running the game.
 
-## License
-Specify the license here.
+2. **Program the Development Board**  
+   Open STM32CubeIDE, load the provided code, and flash it onto the B-L475E-IOT01A board.
+
+3. **Run the Python Script**  
+   Execute the Python script to receive accelerometer data from the B-L475E-IOT01A board. Once the connection is successfully established, run the C++ game file to start the game.
+
+## Game Description
+The game is inspired by the classic Google Chrome dinosaur game, with a flying dinosaur character navigating through various obstacles. 
+
+### Key Features:
+- **Obstacles**: Dodge incoming trees and arrows to avoid losing health.
+- **Sheep**: Collect sheep on the map to gain points.
+- **Health Management**: The game ends when the player loses all three lives.
+
+### Controls:
+- **Start Game**: Push the button on the development board.
+- **Move Character**: Flip the board to navigate the character up or down.
+- **Recover Health**: Press and hold the button for one second, then release it.
+- **Shoot Fire**: Tap the button briefly to shoot fire and destroy obstacles.
+
+## Authors
+- Yi-Kai Li  
+- Chun-Wei Chen  
+- Po-Wen Huang
