@@ -1,10 +1,5 @@
 # Embedded System: NTUEE 2024 Fall Final Project  
 
-![GitHub repo size](https://img.shields.io/github/repo-size/username/repository-name)  
-![GitHub last commit](https://img.shields.io/github/last-commit/username/repository-name)  
-![GitHub issues](https://img.shields.io/github/issues/username/repository-name)  
-![GitHub stars](https://img.shields.io/github/stars/username/repository-name?style=social)  
-
 ## Abstract  
 In this project, we aim to combine modern game development with embedded system programming to create a unique and engaging gaming experience. Utilizing the SDL2 library in C++, we designed a game featuring smooth graphics, responsive controls, and captivating mechanics.  
 
@@ -36,6 +31,14 @@ The game is inspired by the classic Google Chrome dinosaur game, with a flying d
 - **Shoot Fire**: Tap the button briefly to shoot fire and destroy obstacles.  
 
 ## Authors  
-- Yi-Kai Li  
-- Chun-Wei Chen  
-- Po-Wen Huang  
+- **Yi-Kai Li**  
+  ![GitHub followers](https://img.shields.io/github/followers/danielliyk?label=Follow&style=social)  
+  [GitHub Profile](https://github.com/danielliyk)  
+
+- **Chun-Wei Chen**  
+  ![GitHub followers](https://img.shields.io/github/followers/ChenWils?label=Follow&style=social)  
+  [GitHub Profile](https://github.com/ChenWils)  
+
+- **Po-Wen Huang**  
+  ![GitHub followers](https://img.shields.io/github/followers/PioHuang?label=Follow&style=social)  
+  [GitHub Profile](https://github.com/PioHuang)  
