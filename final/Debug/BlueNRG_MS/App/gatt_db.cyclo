@@ -1,0 +1,10 @@
+../BlueNRG_MS/App/gatt_db.c:96:7:weighted_moving_average	2
+../BlueNRG_MS/App/gatt_db.c:112:6:check_thresholds_and_send	13
+../BlueNRG_MS/App/gatt_db.c:166:12:Add_HWServW2ST_Service	4
+../BlueNRG_MS/App/gatt_db.c:211:12:Add_SWServW2ST_Service	3
+../BlueNRG_MS/App/gatt_db.c:250:12:Acc_Update	2
+../BlueNRG_MS/App/gatt_db.c:279:12:Sample_rate_Update	1
+../BlueNRG_MS/App/gatt_db.c:285:12:ACC_DATA_Update	3
+../BlueNRG_MS/App/gatt_db.c:372:12:Quat_Update	2
+../BlueNRG_MS/App/gatt_db.c:423:6:Read_Request_CB	5
+../BlueNRG_MS/App/gatt_db.c:449:12:BlueMS_Environmental_Update	2
